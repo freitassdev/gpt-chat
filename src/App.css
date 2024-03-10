@@ -1,13 +1,41 @@
-.header {
-  width: 100%;
-  height: 4rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0 20px;
-  gap: 10px; 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-.header .header-alert {
-  max-width: 700px;
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18181b;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #111113;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f12;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #0f0f12;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #0f0f12;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
