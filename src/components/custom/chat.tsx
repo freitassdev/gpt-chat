@@ -37,7 +37,7 @@ export function Chat() {
         setLestMessage('user');
         setShowAlert(false);
         setMessage('');
-        console.log('msg enviada')
+        console.log('msg enviada', lestMessage)
     }
 
     return (
